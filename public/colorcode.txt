@@ -1,0 +1,3 @@
+dark-blue = #080533
+yellow-shade = #a35d07
+

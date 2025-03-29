@@ -1,37 +1,121 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const JoinBupRC = () => {
   return (
-   <div className="w-9/12 mx-auto mt-10">
-        <div className="flex flex-row items-center justify-between">
-          <div>
-            <h1 className="text-3xl font-bold mb-4">BUP Robotics Club</h1>
-            <p className="text-xl mb-4">
-              Innovate,Create,Automate.Join un in exploring the exciting <br />{" "}
-              world of robotics and Technology
-            </p>
-            <div className="flex flex-row gap-2">
-              <button type="button" className="bg-[#123b77] p-3 rounded-md text-white ">
-                Upcoming Events
-              </button>
-              <button type="button" className="bg-[#123b77] p-3 rounded-md text-white " >
-                Meet Our Team
-              </button>
-            </div>
+    <div className="w-[90%] mx-auto py-10">
+      <div className="grid grid-cols-3 gap-6">
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
           </div>
-          <div>
-            <Image
-              src={"/rccc.jpg"}
-              height={500}
-              width={500}
-              alt="banner"
-              className="rounded-2xl"
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
+          </div>
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
+          </div>
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
+          </div>
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
+          </div>
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
+          </div>
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
+          </div>
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
+            />
+          </div>
+        </div>
+        <div
+          className="w-full p-10 rounded-lg transition-all duration-[2000ms] ease-in-out shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+        hover:bg-gradient-to-r hover:from-indigo-300/30 hover:via-purple-300/30 hover:to-pink-300/30 hover:backdrop-blur-sm"
+        >
+          <div className="bg-white rounded-lg overflow-hidden">
+            <img
+              src="/rccc.jpg"
+              alt=""
+              className="object-cover h-[350px] w-full"
             />
           </div>
         </div>
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default JoinBupRC
+export default JoinBupRC;

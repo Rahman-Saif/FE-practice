@@ -1,37 +1,29 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const Banner = () => {
   return (
-    <div className="w-9/12 mx-auto mt-10">
-      <div className="flex flex-row items-center justify-between">
-        <div>
-          <h1 className="text-3xl font-bold mb-4">BUP Robotics Club</h1>
-          <p className="text-xl mb-4">
-            Innovate,Create,Automate.Join un in exploring the exciting <br />{" "}
-            world of robotics and Technology
-          </p>
-          <div className="flex flex-row gap-2">
-            <button type="button" className="bg-[#123b77] p-3 rounded-md text-white ">
-              Upcoming Events
-            </button>
-            <button type="button" className="bg-[#123b77] p-3 rounded-md text-white " >
-              Meet Our Team
-            </button>
-          </div>
+    <div className={inter.className}>
+      <div className="h-[calc(100vh-160px)]  flex flex-col  items-center justify-center  ">
+        <div className="text-center">
+          <h1 className="text-4xl font-semibold mb-8">
+            Welcome To BUP Robotics Club
+          </h1>
+          <p className="text-6xl mb-4">Innovate,Create and Build The Future</p>
         </div>
-        <div>
-          <Image
-            src={"/rccc.jpg"}
-            height={500}
-            width={500}
-            alt="banner"
-            className="rounded-2xl"
-          />
+        <div className="flex gap-4 justify-center">
+          <button className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition duration-300 ">
+            Get Started
+          </button>
+          <button className="bg-blue-900 text-white px-8 py-3 rounded-lg text-lg hover:bg-blue-700 transition duration-300">
+            Learn More
+          </button>
         </div>
       </div>
     </div>
   );
-}
-
-export default Banner
+};
+export default Banner;

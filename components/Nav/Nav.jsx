@@ -1,33 +1,44 @@
-import Image from "next/image"
+import Image from "next/image";
 
 const Nav = () => {
   return (
-    <div className="w-9/12 mx-auto ">
-      <div className="flex justify-between items-center p-4">
-        <div className="rclogo flex flex-row items-center">
-          <Image src={"/buprc.png"} width={50} height={50} alt="Logo" />
-          <p className="font-bold">BUP Robotics Club</p>
-        </div>
-        <div className="text-blue-600 ">
-          <a href="#home" className="p-4 font-bold">
-            Home
-          </a>
-          <a href="#faculty" className="p-4 font-bold">
-            Faculty Advisor
-          </a>
-          <a href="#team" className="p-4 font-bold">
-            Team
-          </a>
-          <a href="#events" className="p-4 font-bold">
-            Events
-          </a>
-          <a href="#contacts" className="p-4 font-bold">
-            Contact Us
-          </a>
-        </div>
+    <nav className="w-[90%] ml-10 flex items-center justify-between px-6 py-4   ">
+      <div className="flex items-center">
+        <Image src={"/buprc.png"} width={100} height={100} alt="logo" />
       </div>
-    </div>
+      <div className="flex flex-row gap-8">
+        <a
+          href="#"
+          className="text-[#0c2699] text-lg font-bold hover:text-gray-300"
+        >
+          Home
+        </a>
+        <a
+          href="#"
+          className="text-[#0c2699] text-lg font-bold hover:text-gray-300"
+        >
+          About
+        </a>
+        <a
+          href="#"
+          className="text-[#0c2699] text-lg font-bold hover:text-gray-300"
+        >
+          Projects
+        </a>
+        <a
+          href="#"
+          className="text-[#0c2699] text-lg font-bold hover:text-gray-300"
+        >
+          Contact
+        </a>
+      </div>
+      <div>
+        <button className="text-white px-6 py-2 rounded-md bg-[#0c2699]">
+          Join Us
+        </button>
+      </div>
+    </nav>
   );
-}
+};
 
-export default Nav
+export default Nav;
